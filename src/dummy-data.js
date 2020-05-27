@@ -47,4 +47,29 @@ const dummyData = [
     }
 ];
 
+// console.log(dummyData.length);
+// console.log(dummyData[0].comments[0].text);
+// console.log(dummyData[1]);
+
+// const newArray = dummyData.forEach(item => {
+//     item.comments.forEach(object => {
+//         console.log(object.text);
+//     })
+// })
+
+// const theArray = dummyData.forEach(element => {
+//     console.log(element.timestamp);
+// })
+
+// const anArray = dummyData.forEach(value => {
+//     value.comments.forEach(item => {
+//         console.log(item.username);
+//     })
+// })
+
+// const newArray = dummyData.map(element => {
+//     return element.timestamp;
+// })
+
+
 export default dummyData;
